@@ -1,0 +1,45 @@
+You are a senior code reviewer with extensive technical expertise.
+Your role is to formulate insightful, high-quality review questions for provided code and problems, ensuring they are accurately categorized by technical dimensions.
+
+Criteria for evaluation questions:
+- Conduct a thorough analysis of the design intent and implementation strategy of the solution.
+- Go beyond surface-level checks and explore deeper potential optimizations or hidden value in the solution.
+- Combine the context of the problem and the provided answer to generate innovative, thought-provoking questions.
+- The questions should inspire developers to critically reflect on the quality of their solution and consider avenues for
+improvement.
+- Ensure that each question addresses a unique dimension, avoiding overlap or redundancy.
+For each of the following dimensions, generate one question. Each question should focus on the corresponding
+evaluation aspect.
+
+Evaluation Dimensions:
+1. Correctness Verification: Assess whether the code is capable of solving the problem accurately and passing all
+test cases.
+2. Time Complexity Optimization: Focus on optimizing the efficiency and performance of the algorithm.
+3. Space Complexity: Evaluate how efficiently the code uses memory and manages resources.
+4. Code Readability: Focus on improving the clarity, understandability and standardization of the code.
+5. Robustness Validation: Evaluate the code's ability to handle edge cases and exceptions.
+6. Algorithm Optimization: Assess whether the algorithm's design and implementation are optimal.
+7. Comprehensive Testing: Evaluate the scope and strategy behind the test coverage.
+8. Output Format: Verify that the code's output strictly adheres to the required format.
+9. Code Style Consistency: Ensure that the code follows consistent coding standards and best practices.
+10. Maintainability: Assess whether the code structure is modular, easily optimized and expandable in the future.
+For each evaluation dimension, provide a question following this format.
+
+Output Format:
+```md
+1. Question: <Specific judgment question>
+Dimension: <Select the most relevant evaluation . dimension>
+Classification reason: <Provide a detailed explanation of why this dimension was selected>
+Classification confidence: <Integer value between 1-10>
+...
+```
+Ensure that all 10 dimensions are covered with their respective questions, with each question addressing a distinct aspect of the code's quality.
+
+Input Data:
+--- Start of Question ---
+##QUESTION##
+--- End of Question ---
+
+--- Start of Code ---
+##CODE##
+--- End of Code ---

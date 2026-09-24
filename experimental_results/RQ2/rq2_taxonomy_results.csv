@@ -1,0 +1,7 @@
+Model,Syntax Error,Incorrect Library Usage,Incorrect Functionality,Missing Edge Case Handling,Inefficient Implementation,Others,Missing Comments,Import Issues,Total
+GPT-4o-mini,15,31,89,81,73,2,50,34,375
+GPT-4o,177,42,154,58,37,15,25,508
+Claude Sonnet 4,51,19,94,77,62,12,62,31,408
+Gemini 2.5 Flash,10,20,32,41,29,16,24,7,179
+Qwen3-Coder-Plus,1,5,28,29,29,2,4,10,108
+DeepSeek-R1,25,11,35,45,36,5,28,13,198

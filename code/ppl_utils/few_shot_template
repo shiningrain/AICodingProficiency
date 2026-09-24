@@ -1,0 +1,6 @@
+Here is one example of Python code snippets with ##LIB##. Following the example, ##ORIGIN_PROMPT##
+---
+Example: 
+---
+"""##TASK1##"""
+##CODE1##
